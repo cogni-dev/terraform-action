@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux
 # Arch tracks changes in their package manager at the same rate as brew on mac does or at least is very close
 
 # This should be arch to get on latest
