@@ -92,6 +92,8 @@ echo "Executing 'terraform $ACTION' for PR: #$PR_NUMBER."
 
 cd $TFPATH
 
+tfswitch
+
 terraform init
 
 terraform fmt -check
